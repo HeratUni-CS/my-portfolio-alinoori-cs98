@@ -34,3 +34,32 @@ class MyApp extends StatelessWidget {
                 letterSpacing: 2,
                 fontFamily: 'pacifico',
               ),
+	   ),
+	            Card(
+              margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              child: ListTile(
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.teal,
+                ),
+                title: Text('+(93) 798506680'),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              child: ListTile(
+                leading: Icon(
+                  Icons.email,
+                  color: Colors.teal,
+                ),
+                title: Text(
+                  'alinoori.cs98@gmail.com',
+                ),
+              ),
+            )
+          ]),
+        ),
+      ),
+    );
+  }
+}
